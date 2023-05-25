@@ -1,0 +1,11 @@
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\bin\Debug\MarkdownExtensions.dll
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\bin\Debug\MarkdownExtensions.pdb
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\obj\Debug\MarkdownExtensions.csproj.AssemblyReference.cache
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\obj\Debug\MarkdownExtensions.csproj.CoreCompileInputs.cache
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\obj\Debug\MarkdownExtensions.dll
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\obj\Debug\MarkdownExtensions.pdb
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\bin\Debug\MarkdownExtensions.Decorators.dll
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\bin\Debug\MarkdownExtensions.Types.dll
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\bin\Debug\MarkdownExtensions.Decorators.pdb
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\bin\Debug\MarkdownExtensions.Types.pdb
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\obj\Debug\MarkdownExtensions.csproj.CopyComplete

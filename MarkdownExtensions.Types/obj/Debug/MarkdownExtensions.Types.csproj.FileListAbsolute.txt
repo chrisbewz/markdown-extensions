@@ -1,0 +1,6 @@
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Types\bin\Debug\MarkdownExtensions.Types.dll
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Types\bin\Debug\MarkdownExtensions.Types.pdb
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Types\obj\Debug\MarkdownExtensions.Types.csproj.AssemblyReference.cache
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Types\obj\Debug\MarkdownExtensions.Types.csproj.CoreCompileInputs.cache
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Types\obj\Debug\MarkdownExtensions.Types.dll
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Types\obj\Debug\MarkdownExtensions.Types.pdb

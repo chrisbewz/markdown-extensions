@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{D695A393-C678-49AB-BDDF-26D09C4A19C1}</ProjectGuid>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>MarkdownExtensions.Types</RootNamespace>
+        <AssemblyName>MarkdownExtensions.Types</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+        <LangVersion>latestmajor</LangVersion>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="DocumentSettings.cs" />
+        <Compile Include="IMarkdownBaseElement.cs" />
+        <Compile Include="IMarkdownBlockQuote.cs" />
+        <Compile Include="IMarkdownContentContainer.cs" />
+        <Compile Include="IMarkdownDerivedElement.cs" />
+        <Compile Include="IMarkdownDocument.cs" />
+        <Compile Include="IMarkdownHeader.cs" />
+        <Compile Include="IMarkDownImage.cs" />
+        <Compile Include="IMarkdownLink.cs" />
+        <Compile Include="IMarkdownListBullet.cs" />
+        <Compile Include="IMarkdownOrderedListItem.cs" />
+        <Compile Include="IMarkdownUnorderedListItem.cs" />
+        <Compile Include="IMarkdownParseAware.cs" />
+        <Compile Include="IMarkdownLongTextElement.cs" />
+        <Compile Include="ListBulletKind.cs" />
+        <Compile Include="MarkdownBaseElement.cs" />
+        <Compile Include="IMarkdownElement.cs" />
+        <Compile Include="MarkdownBlockQuote.cs" />
+        <Compile Include="MarkdownConstants.cs" />
+        <Compile Include="MarkdownDerivedElement.cs" />
+        <Compile Include="MarkdownHeader.cs" />
+        <Compile Include="MarkdownImage.cs" />
+        <Compile Include="MarkdownLink.cs" />
+        <Compile Include="MarkdownOrderedList.cs" />
+        <Compile Include="MarkdownOrderedListItem.cs" />
+        <Compile Include="MarkdownUnorderedList.cs" />
+        <Compile Include="MarkdownListBullet.cs" />
+        <Compile Include="MarkdownUnorderedListItem.cs" />
+        <Compile Include="MarkdownListSeparator.cs" />
+        <Compile Include="ParserTypes.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>
