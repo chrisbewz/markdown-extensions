@@ -9,3 +9,11 @@ C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensio
 C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\bin\Debug\MarkdownExtensions.Decorators.pdb
 C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\bin\Debug\MarkdownExtensions.Types.pdb
 C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\obj\Debug\MarkdownExtensions.csproj.CopyComplete
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\bin\Debug\System.Memory.dll
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\bin\Debug\System.Buffers.dll
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\bin\Debug\System.Memory.xml
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\bin\Debug\System.Buffers.xml

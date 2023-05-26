@@ -18,3 +18,11 @@ C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensio
 C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Tests\obj\Debug\MarkdownExtensions.Tests.csproj.CopyComplete
 C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Tests\obj\Debug\MarkdownExtensions.Tests.dll
 C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Tests\obj\Debug\MarkdownExtensions.Tests.pdb
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Tests\bin\Debug\System.Memory.dll
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Tests\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Tests\bin\Debug\System.Buffers.dll
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Tests\bin\Debug\System.Memory.xml
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Tests\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Tests\bin\Debug\System.Buffers.xml

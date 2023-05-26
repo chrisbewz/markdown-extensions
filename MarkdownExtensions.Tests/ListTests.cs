@@ -7,6 +7,29 @@ namespace MarkdownExtensions.Tests
 {
     public class ListTests
     {
+        
+        [Fact]
+        public void SimpleUnorderedListWithCustomBulletSetupTest()
+        {
+            List<MarkdownUnorderedListItem> items = new List<MarkdownUnorderedListItem>();
+
+            items.Add(new MarkdownUnorderedListItem("bla",new MarkdownListBullet(ListBulletKind.Star)));
+            items.Add(new MarkdownUnorderedListItem("blabla",new MarkdownListBullet(ListBulletKind.Star)));
+            items.Add(new MarkdownUnorderedListItem("blablabla",new MarkdownListBullet(ListBulletKind.Star)));
+            items.Add(new MarkdownUnorderedListItem("blablablabla",new MarkdownListBullet(ListBulletKind.Star)));
+
+            string wildcard = "*";
+
+            var markdownUnorderedList = new MarkdownUnorderedList(items);
+
+            var list = markdownUnorderedList.ToString();
+            var expectedListString = $" {wildcard} bla" + Environment.NewLine
+                                                        + $" {wildcard} blabla" + Environment.NewLine
+                                                        + $" {wildcard} blablabla" + Environment.NewLine
+                                                        + $" {wildcard} blablablabla" + Environment.NewLine;
+            
+            Assert.True(markdownUnorderedList.ToString().Equals(expectedListString));
+        }
         [Fact]
         public void SimpleUnorderedListSetupTest()
         {
@@ -17,13 +40,15 @@ namespace MarkdownExtensions.Tests
             items.Add(new MarkdownUnorderedListItem("blablabla"));
             items.Add(new MarkdownUnorderedListItem("blablablabla"));
 
+            string wildcard = "-";
+
             var markdownUnorderedList = new MarkdownUnorderedList(items);
 
             var list = markdownUnorderedList.ToString();
-            var expectedListString = " - bla" + Environment.NewLine
-                                               + " - blabla" + Environment.NewLine
-                                               + " - blablabla" + Environment.NewLine
-                                               + " - blablablabla" + Environment.NewLine;
+            var expectedListString = $" {wildcard} bla" + Environment.NewLine
+                                                        + $" {wildcard} blabla" + Environment.NewLine
+                                                        + $" {wildcard} blablabla" + Environment.NewLine
+                                                        + $" {wildcard} blablablabla" + Environment.NewLine;
             
             Assert.True(markdownUnorderedList.ToString().Equals(expectedListString));
         }

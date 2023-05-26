@@ -8,6 +8,11 @@ public class MarkdownBlockQuote : IMarkdownBlockQuote
     {
         this._quote = ">";
     }
+
+    public MarkdownBlockQuote()
+    {
+        Construct();
+    }
     
     public string Quote => _quote;
 

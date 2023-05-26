@@ -33,12 +33,30 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="mscorlib" />
         <Reference Include="System" />
+        <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+          <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+        </Reference>
         <Reference Include="System.Core" />
         <Reference Include="System.Data" />
+        <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+          <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Numerics" />
+        <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+        </Reference>
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Attributes\MarkdownElementAttribute.cs" />
+        <Compile Include="Attributes\MarkdownTableAttribute.cs" />
+        <Compile Include="Attributes\MarkdownTableFieldAttribute.cs" />
+        <Compile Include="ColumnsLenght.cs" />
         <Compile Include="DocumentSettings.cs" />
         <Compile Include="IMarkdownBaseElement.cs" />
         <Compile Include="IMarkdownBlockQuote.cs" />
@@ -50,6 +68,11 @@
         <Compile Include="IMarkdownLink.cs" />
         <Compile Include="IMarkdownListBullet.cs" />
         <Compile Include="IMarkdownOrderedListItem.cs" />
+        <Compile Include="IMarkdownTable.cs" />
+        <Compile Include="IMarkdownTableColumn.cs" />
+        <Compile Include="IMarkdownTableElement.cs" />
+        <Compile Include="IMarkdownTableItem.cs" />
+        <Compile Include="IMarkdownTableRow.cs" />
         <Compile Include="IMarkdownUnorderedListItem.cs" />
         <Compile Include="IMarkdownParseAware.cs" />
         <Compile Include="IMarkdownLongTextElement.cs" />
@@ -64,12 +87,20 @@
         <Compile Include="MarkdownLink.cs" />
         <Compile Include="MarkdownOrderedList.cs" />
         <Compile Include="MarkdownOrderedListItem.cs" />
+        <Compile Include="MarkdownTable.cs" />
+        <Compile Include="MarkdownTableColumn.cs" />
+        <Compile Include="MarkdownTableItem.cs" />
+        <Compile Include="MarkdownTableRow.cs" />
         <Compile Include="MarkdownUnorderedList.cs" />
         <Compile Include="MarkdownListBullet.cs" />
         <Compile Include="MarkdownUnorderedListItem.cs" />
         <Compile Include="MarkdownListSeparator.cs" />
         <Compile Include="ParserTypes.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="TableColumnAlignment.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="packages.config" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
