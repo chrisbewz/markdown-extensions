@@ -95,7 +95,6 @@
         <Compile Include="MarkdownListBullet.cs" />
         <Compile Include="MarkdownUnorderedListItem.cs" />
         <Compile Include="MarkdownListSeparator.cs" />
-        <Compile Include="ParserTypes.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="TableColumnAlignment.cs" />
     </ItemGroup>

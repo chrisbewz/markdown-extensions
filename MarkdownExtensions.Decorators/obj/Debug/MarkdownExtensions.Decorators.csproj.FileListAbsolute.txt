@@ -4,3 +4,9 @@ C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensio
 C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Decorators\obj\Debug\MarkdownExtensions.Decorators.csproj.CoreCompileInputs.cache
 C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Decorators\obj\Debug\MarkdownExtensions.Decorators.dll
 C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Decorators\obj\Debug\MarkdownExtensions.Decorators.pdb
+C:\Users\kevinms\RiderProjects\markdown-extensions\MarkdownExtensions.Decorators\bin\Debug\MarkdownExtensions.Decorators.dll
+C:\Users\kevinms\RiderProjects\markdown-extensions\MarkdownExtensions.Decorators\bin\Debug\MarkdownExtensions.Decorators.pdb
+C:\Users\kevinms\RiderProjects\markdown-extensions\MarkdownExtensions.Decorators\obj\Debug\MarkdownExtensions.Decorators.csproj.AssemblyReference.cache
+C:\Users\kevinms\RiderProjects\markdown-extensions\MarkdownExtensions.Decorators\obj\Debug\MarkdownExtensions.Decorators.csproj.CoreCompileInputs.cache
+C:\Users\kevinms\RiderProjects\markdown-extensions\MarkdownExtensions.Decorators\obj\Debug\MarkdownExtensions.Decorators.dll
+C:\Users\kevinms\RiderProjects\markdown-extensions\MarkdownExtensions.Decorators\obj\Debug\MarkdownExtensions.Decorators.pdb

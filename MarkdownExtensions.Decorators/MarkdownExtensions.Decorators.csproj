@@ -39,15 +39,17 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="BoldDecorator.cs" />
-        <Compile Include="BoldStarredDecorator.cs" />
-        <Compile Include="BoldStyle.cs" />
-        <Compile Include="BoldUnderlinedDecorator.cs" />
+        <Compile Include="Formatting\Position.cs" />
         <Compile Include="IDecorator.cs" />
-        <Compile Include="ItalicStarredDecorator.cs" />
-        <Compile Include="ItalicStyle.cs" />
-        <Compile Include="ItalicUndelinedDecorator.cs" />
+        <Compile Include="Options\BoldOptions.cs" />
+        <Compile Include="Options\ItalicOptions.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="StyleExtensions\BoldExtensions.cs" />
+        <Compile Include="StyleExtensions\ItalicExtensions.cs" />
+        <Compile Include="Variants\BoldStarredDecorator.cs" />
+        <Compile Include="Variants\BoldUnderlinedDecorator.cs" />
+        <Compile Include="Variants\ItalicStarredDecorator.cs" />
+        <Compile Include="Variants\ItalicUndelinedDecorator.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

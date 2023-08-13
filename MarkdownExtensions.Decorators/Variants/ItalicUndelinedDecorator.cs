@@ -1,4 +1,4 @@
-﻿namespace MarkdownExtensions.Decorators;
+﻿namespace MarkdownExtensions.Decorators.Variants;
 
 public class ItalicUndelinedDecorator : IDecorator
 {

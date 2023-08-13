@@ -13,3 +13,7 @@ C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensio
 C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Types\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Types\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Christianb\RiderProjects\Development\Utility Libraries\MarkdownExtensions\MarkdownExtensions.Types\obj\Debug\MarkdownExtensions.Types.csproj.CopyComplete
+C:\Users\kevinms\RiderProjects\markdown-extensions\MarkdownExtensions.Types\obj\Debug\MarkdownExtensions.Types.csproj.AssemblyReference.cache
+C:\Users\kevinms\RiderProjects\markdown-extensions\MarkdownExtensions.Types\obj\Debug\MarkdownExtensions.Types.csproj.CoreCompileInputs.cache
+C:\Users\kevinms\RiderProjects\markdown-extensions\MarkdownExtensions.Types\obj\Debug\MarkdownExtensions.Types.dll
+C:\Users\kevinms\RiderProjects\markdown-extensions\MarkdownExtensions.Types\obj\Debug\MarkdownExtensions.Types.pdb

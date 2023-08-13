@@ -1,14 +1,14 @@
-﻿namespace MarkdownExtensions.Decorators;
+﻿namespace MarkdownExtensions.Decorators.Variants;
 
-public class ItalicStarredDecorator : IDecorator
+public class BoldUnderlinedDecorator : IDecorator
 {
     private string _decorator;
 
     public string Decorator => _decorator;
 
-    public ItalicStarredDecorator()
+    public BoldUnderlinedDecorator()
     {
-        this._decorator = "*";
+        this._decorator = "__";
     }
 
     public override string ToString()

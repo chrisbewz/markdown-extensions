@@ -1,6 +1,6 @@
-﻿namespace MarkdownExtensions.Decorators
+﻿namespace MarkdownExtensions.Decorators.StyleExtensions
 {
-    public static class ItalicStyle
+    public static class ItalicExtensions
     {
         public static string SetItalic(this string content,IDecorator italicDecorator)
         {
