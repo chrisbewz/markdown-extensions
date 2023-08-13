@@ -1,7 +1,7 @@
 ﻿using MarkdownExtensions.Types.Contracts;
 using MarkdownExtensions.Types.Enumerations;
 
-namespace MarkdownExtensions.Types.Implementations;
+namespace MarkdownExtensions.Types.BaseTypes;
 
 public class MarkdownListBullet : IMarkdownListBullet
 {

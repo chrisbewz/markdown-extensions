@@ -1,15 +1,8 @@
 ﻿namespace MarkdownExtensions.Decorators.Variants
 {
-    public class BoldStarredDecorator : IDecorator
+    public sealed class BoldStarredDecorator : IDecorator
     {
-        private string _decorator;
-
-        public string Decorator => _decorator;
-
-        public BoldStarredDecorator()
-        {
-            this._decorator = "**";
-        }
+        private string _decorator = "**";
 
         public override string ToString()
         {

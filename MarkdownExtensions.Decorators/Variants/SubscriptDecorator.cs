@@ -1,8 +1,8 @@
 ﻿namespace MarkdownExtensions.Decorators.Variants;
 
-public sealed class ItalicUndelinedDecorator : IDecorator
+public sealed class SubscriptDecorator : IDecorator
 {
-    private string _decorator = "_";
+    private string _decorator = "~";
 
     public override string ToString()
     {

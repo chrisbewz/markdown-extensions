@@ -1,4 +1,4 @@
-﻿namespace MarkdownExtensions.Types.Implementations;
+﻿namespace MarkdownExtensions.Types.BaseTypes;
 
 public enum MarkdownBaseElement
 {

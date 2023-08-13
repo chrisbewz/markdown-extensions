@@ -2,7 +2,7 @@
 using System.Text;
 using MarkdownExtensions.Types.Contracts;
 
-namespace MarkdownExtensions.Types.Implementations;
+namespace MarkdownExtensions.Types.BaseTypes;
 
 public class MarkdownUnorderedListItem : IMarkdownDerivedElement,IMarkdownUnorderedListItem
 {

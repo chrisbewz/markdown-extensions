@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
+using MarkdownExtensions.Types.BaseTypes;
 using MarkdownExtensions.Types.Enumerations;
-using MarkdownExtensions.Types.Implementations;
 
 namespace MarkdownExtensions.Types.Contracts;
 

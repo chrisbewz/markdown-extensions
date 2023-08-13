@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using MarkdownExtensions.Types.Contracts;
 
-namespace MarkdownExtensions.Types.Implementations;
+namespace MarkdownExtensions.Types.BaseTypes;
 
 public class MarkdownTableRow : IMarkdownTableRow
 {

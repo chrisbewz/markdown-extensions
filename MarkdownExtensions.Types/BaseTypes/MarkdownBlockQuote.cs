@@ -1,6 +1,6 @@
 ﻿using MarkdownExtensions.Types.Contracts;
 
-namespace MarkdownExtensions.Types.Implementations;
+namespace MarkdownExtensions.Types.BaseTypes;
 
 public class MarkdownBlockQuote : IMarkdownBlockQuote
 {

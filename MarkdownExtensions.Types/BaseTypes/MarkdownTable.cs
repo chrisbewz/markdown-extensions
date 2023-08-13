@@ -6,7 +6,7 @@ using System.Text;
 using MarkdownExtensions.Types.Contracts;
 using MarkdownExtensions.Types.Enumerations;
 
-namespace MarkdownExtensions.Types.Implementations;
+namespace MarkdownExtensions.Types.BaseTypes;
 
 public class MarkdownTable : IMarkdownTable,IEqualityComparer<MarkdownTableRow>
 {

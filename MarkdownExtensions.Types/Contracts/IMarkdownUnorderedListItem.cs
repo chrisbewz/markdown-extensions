@@ -1,4 +1,4 @@
-﻿using MarkdownExtensions.Types.Implementations;
+﻿using MarkdownExtensions.Types.BaseTypes;
 
 namespace MarkdownExtensions.Types.Contracts;
 

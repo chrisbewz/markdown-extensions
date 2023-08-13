@@ -44,12 +44,17 @@
         <Compile Include="Options\BoldOptions.cs" />
         <Compile Include="Options\ItalicOptions.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-        <Compile Include="StyleExtensions\BoldExtensions.cs" />
-        <Compile Include="StyleExtensions\ItalicExtensions.cs" />
+        <Compile Include="Extensions\BoldExtensions.cs" />
+        <Compile Include="Extensions\ItalicExtensions.cs" />
+        <Compile Include="Extensions\TextExtensions.cs" />
         <Compile Include="Variants\BoldStarredDecorator.cs" />
         <Compile Include="Variants\BoldUnderlinedDecorator.cs" />
+        <Compile Include="Variants\HighlightedDecorator.cs" />
         <Compile Include="Variants\ItalicStarredDecorator.cs" />
         <Compile Include="Variants\ItalicUndelinedDecorator.cs" />
+        <Compile Include="Variants\StrikethroughDecorator.cs" />
+        <Compile Include="Variants\SubscriptDecorator.cs" />
+        <Compile Include="Variants\SuperscriptDecorator.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

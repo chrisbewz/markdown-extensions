@@ -1,8 +1,8 @@
 ﻿namespace MarkdownExtensions.Decorators.Variants;
 
-public sealed class ItalicUndelinedDecorator : IDecorator
+public sealed class StrikethroughDecorator
 {
-    private string _decorator = "_";
+    private string _decorator = "~~";
 
     public override string ToString()
     {

@@ -1,5 +1,5 @@
 ﻿using MarkdownExtensions.Types;
-using MarkdownExtensions.Types.Implementations;
+using MarkdownExtensions.Types.BaseTypes;
 using Xunit;
 
 namespace MarkdownExtensions.Tests

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using MarkdownExtensions.Types;
+using MarkdownExtensions.Types.BaseTypes;
 using MarkdownExtensions.Types.Enumerations;
-using MarkdownExtensions.Types.Implementations;
 using Xunit;
 
 namespace MarkdownExtensions.Tests

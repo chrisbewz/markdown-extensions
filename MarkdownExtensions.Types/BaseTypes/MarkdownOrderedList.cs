@@ -3,23 +3,22 @@ using System.Linq;
 using System.Text;
 using MarkdownExtensions.Types.Contracts;
 
-namespace MarkdownExtensions.Types.Implementations;
+namespace MarkdownExtensions.Types.BaseTypes;
 
-public class MarkdownUnorderedList : IMarkdownElement
+public class MarkdownOrderedList : IMarkdownElement
 {
     private string _listContent;
     
     public MarkdownBaseElement Kind => MarkdownBaseElement.Block;
-
-    public IEnumerable<MarkdownUnorderedListItem> InnerItems { get; set; }
+    public IEnumerable<MarkdownOrderedListItem> InnerItems { get; set; }
     
-    public MarkdownUnorderedList()
+    public MarkdownOrderedList()
     {
-        this.InnerItems = new List<MarkdownUnorderedListItem>();
+        this.InnerItems = new List<MarkdownOrderedListItem>();
         Construct();
     }
 
-    public MarkdownUnorderedList(IEnumerable<MarkdownUnorderedListItem> innerItems)
+    public MarkdownOrderedList(IEnumerable<MarkdownOrderedListItem> innerItems)
     {
         InnerItems = innerItems;
         Construct();
@@ -51,10 +50,11 @@ public class MarkdownUnorderedList : IMarkdownElement
         this._listContent = parsedContent.ToString();
     }
 
-    public string ListContent => _listContent;
-
     public override string ToString()
     {
         return this._listContent;
     }
+
+    public string ListContent => _listContent;
+    
 }
