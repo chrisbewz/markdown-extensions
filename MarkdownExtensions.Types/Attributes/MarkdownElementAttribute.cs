@@ -1,4 +1,5 @@
 ﻿using System;
+using MarkdownExtensions.Types.Contracts;
 
 namespace MarkdownExtensions.Types.Attributes;
 
