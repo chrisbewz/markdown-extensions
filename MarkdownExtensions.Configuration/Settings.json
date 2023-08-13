@@ -1,0 +1,13 @@
+﻿{
+  "Metadata": {
+    "HTML_SUPPORT": true,
+    "EXTENDED_MD_SUPPORTED": false
+  },
+  "Formatting": 
+  {
+    "ALLOW_CUSTOM_DECORATORS": false,
+    "ALLOW_TRAIL_SPACES": false,
+    "ENABLE_INLINE_WARNINGS": false
+  }
+  
+}
