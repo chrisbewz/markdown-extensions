@@ -2,7 +2,7 @@
 
 namespace MarkdownExtensions.Decorators.Extensions
 {
-    public static partial class TextExtensions
+    public static partial class DecoratorExtensions
     {
         public static string AsItalic(this string content,IDecorator italicDecorator)
         {

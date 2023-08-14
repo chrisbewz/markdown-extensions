@@ -75,11 +75,17 @@
         <Compile Include="BaseTypes\MarkdownUnorderedListItem.cs" />
         <Compile Include="Contracts\IMarkdownBaseElement.cs" />
         <Compile Include="Contracts\IMarkdownBlockQuote.cs" />
+        <Compile Include="Contracts\IMarkdownCodeBlock.cs" />
         <Compile Include="Contracts\IMarkdownContentContainer.cs" />
+        <Compile Include="Contracts\IMarkdownDefinitionList.cs" />
         <Compile Include="Contracts\IMarkdownDerivedElement.cs" />
         <Compile Include="Contracts\IMarkdownDocument.cs" />
         <Compile Include="Contracts\IMarkdownElement.cs" />
+        <Compile Include="Contracts\IMarkdownEmoji.cs" />
+        <Compile Include="Contracts\IMarkdownExtendedElement.cs" />
+        <Compile Include="Contracts\IMarkdownFootNote.cs" />
         <Compile Include="Contracts\IMarkdownHeader.cs" />
+        <Compile Include="Contracts\IMarkdownHeadingId.cs" />
         <Compile Include="Contracts\IMarkDownImage.cs" />
         <Compile Include="Contracts\IMarkdownLink.cs" />
         <Compile Include="Contracts\IMarkdownListBullet.cs" />
@@ -91,7 +97,10 @@
         <Compile Include="Contracts\IMarkdownTableElement.cs" />
         <Compile Include="Contracts\IMarkdownTableItem.cs" />
         <Compile Include="Contracts\IMarkdownTableRow.cs" />
+        <Compile Include="Contracts\IMarkdownTaskElement.cs" />
+        <Compile Include="Contracts\IMarkdownTaskList.cs" />
         <Compile Include="Contracts\IMarkdownUnorderedListItem.cs" />
+        <Compile Include="Contracts\IMarkdownUrlElement.cs" />
         <Compile Include="DocumentSettings.cs" />
         <Compile Include="Enumerations\ColumnsLenght.cs" />
         <Compile Include="Enumerations\ListBulletKind.cs" />
@@ -101,7 +110,9 @@
         <Compile Include="ExtendedTypes\MarkdownEmoji.cs" />
         <Compile Include="ExtendedTypes\MarkdownFootNote.cs" />
         <Compile Include="ExtendedTypes\MarkdownHeadingId.cs" />
+        <Compile Include="ExtendedTypes\MarkdownTaskElement.cs" />
         <Compile Include="ExtendedTypes\MarkdownTaskList.cs" />
+        <Compile Include="ExtendedTypes\MarkdownUrlElement.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>

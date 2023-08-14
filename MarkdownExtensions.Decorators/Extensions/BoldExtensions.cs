@@ -3,7 +3,7 @@ using MarkdownExtensions.Decorators.Variants;
 
 namespace MarkdownExtensions.Decorators.Extensions
 {
-    public static partial class TextExtensions
+    public static partial class DecoratorExtensions
     {
 
         public static string AsBold(this string content,IDecorator boldDecorator)
