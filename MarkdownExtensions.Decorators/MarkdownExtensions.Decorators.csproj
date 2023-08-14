@@ -39,6 +39,10 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Extensions\HighlightExtensions.cs" />
+        <Compile Include="Extensions\StrikeThroughExtensions.cs" />
+        <Compile Include="Extensions\SubscriptExtensions.cs" />
+        <Compile Include="Extensions\SuperscriptExtensions.cs" />
         <Compile Include="Formatting\Position.cs" />
         <Compile Include="IDecorator.cs" />
         <Compile Include="Options\BoldOptions.cs" />
@@ -46,7 +50,6 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="Extensions\BoldExtensions.cs" />
         <Compile Include="Extensions\ItalicExtensions.cs" />
-        <Compile Include="Extensions\TextExtensions.cs" />
         <Compile Include="Variants\BoldStarredDecorator.cs" />
         <Compile Include="Variants\BoldUnderlinedDecorator.cs" />
         <Compile Include="Variants\HighlightedDecorator.cs" />
