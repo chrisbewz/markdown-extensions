@@ -1,38 +1,27 @@
 ﻿using System;
 using System.Text;
-using MarkdownExtensions.Types.Contracts;
 
 namespace MarkdownExtensions.Types.ExtendedTypes;
 
-using System.Text;
-
-public class MarkdownCodeBlock : IMarkdownExtendedElement
+public class MarkdownCodeBlock
 {
-    public string Code { get; }
-    public string Language { get; }
+    private string _language;
 
-    public MarkdownCodeBlock(string code, string language = "")
+    private string _languageContent;
+
+    public MarkdownCodeBlock()
     {
-        Code = code;
-        Language = language;
+        this._language = string.Empty;
+        this._languageContent = String.Empty;
     }
 
     public override string ToString()
     {
-        StringBuilder codeBlock = new StringBuilder();
-        
-        if (!string.IsNullOrWhiteSpace(Language))
-        {
-            codeBlock.AppendLine($"```{Language}");
-        }
-        else
-        {
-            codeBlock.AppendLine("```");
-        }
-        
-        codeBlock.AppendLine(Code);
-        codeBlock.AppendLine("```");
+        var content = new StringBuilder();
+        content.AppendLine(string.Format("```{0}",this._language));
+        content.AppendLine(this._languageContent);
+        content.AppendLine("´´´");
 
-        return codeBlock.ToString();
+        return content.ToString();
     }
 }

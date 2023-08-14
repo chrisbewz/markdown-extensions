@@ -1,20 +1,6 @@
-﻿using MarkdownExtensions.Types.Contracts;
+﻿namespace MarkdownExtensions.Types.ExtendedTypes;
 
-namespace MarkdownExtensions.Types.ExtendedTypes;
-
-public class MarkdownFootnote : IMarkdownExtendedElement
+public class MarkdownFootNote
 {
-    public int FootnoteNumber { get; }
-    public string FootnoteText { get; }
-
-    public MarkdownFootnote(int footnoteNumber, string footnoteText)
-    {
-        FootnoteNumber = footnoteNumber;
-        FootnoteText = footnoteText;
-    }
-
-    public override string ToString()
-    {
-        return $"[^{FootnoteNumber}]: {FootnoteText}";
-    }
+    
 }
