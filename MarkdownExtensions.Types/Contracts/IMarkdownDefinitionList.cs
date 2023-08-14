@@ -2,11 +2,7 @@
 
 namespace MarkdownExtensions.Types.Contracts;
 
-<<<<<<< HEAD
 public interface IMarkdownDefinitionList : IMarkdownExtendedElement
-=======
-interface IMarkdownDefinitionList : IMarkdownExtendedElement
->>>>>>> origin/master
 {
     bool BoldTerms { get; }
     IEnumerable<string> Terms { get; }
@@ -16,8 +12,4 @@ interface IMarkdownDefinitionList : IMarkdownExtendedElement
     void AddItems(IEnumerable<string> terms);
     void AddDefinition(string term, string definition);
     void AddDefinition(int termIndex, string definition);
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/master
